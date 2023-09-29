@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 150%;
+    font-weight: 400;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+    background-color:rgba(243, 239, 234, 1);
+}
+header a{
+    color: #323232;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+a{
+    text-decoration: none;
+    
+}
+h1{
+    font-family: 'Tenor Sans', sans-serif;
+    color: #57463A;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+.navigate{
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px #000;
+    padding: 28px 141px 19px;
+    justify-content: space-between;
+}
+.navigate-item{
+    display: flex;
+}
+.navigate_link1{
+    margin-right: 98px;
+}
+.navigate_link2{
+    margin-left: 155px;
+}
+.top-title{
+    padding: 120px 140px 160px;
+}
+.top-title_header{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.top-cell{
+    display: flex;
+    justify-content: space-between;
+}
+.top-data{
+    font-family: 'Tenor Sans', sans-serif;
+    color: #57463A;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+    padding-top: 157.5px; 
+}
+.bio-info{
+    display: flex;
+    padding: 0 140px 160px;
+    gap: 40px;
+}
+.bio-info p{
+    text-align: left;
+}
+.bio-info_title{
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    padding-bottom: 20px;
+}
+.bio-info_master{
+    padding-bottom: 70px;
+}
+.bio-info_text{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.filosophy{
+    padding-left: 140px;
+    display: flex;
+    flex-direction: column;
+}
+.filosophy_item{
+   display: flex;
+   justify-content: flex-end;
+   padding: 70px 145px 160px 0;
+}
+.filosophy_item q{
+    color:rgba(50, 50, 50, 1);
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+}
+.cmi-items{
+    padding-left: 138px;
+}
+.cmi-items_img{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding:100px 210px 165px 0;
+}
+.cmi-items_text{
+    padding-bottom: 20px;
+}
+.cmi_button{
+    padding: 18px 51px;
+    background-color:#A1B29F;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    margin: 100px 0 243px 478px;
+}
+.footer-inner{
+    background-color: #715B4B;
+    padding: 84px 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-inner__items{
+    display: flex;
+    flex-direction: column;
+}
+.footer-inner__link{
+    max-width: 130px;
+    display: flex;
+    gap:18px;
+    flex-wrap: wrap;
+}
+.footer-inner p{
+    color: #fff;
+}
+.footer-inner a{
+    color: #fff;
+}
+li{
+    list-style: none;
+}

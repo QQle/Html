@@ -1,0 +1,327 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 150%;
+    font-weight: 400;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+    background-color:rgba(243, 239, 234, 1);
+}
+header a{
+    color: #323232;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+a{
+    text-decoration: none;
+    
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 27px */
+    color: #323232;
+}
+h1, h2{
+    font-family: 'Tenor Sans', sans-serif;
+    color: #57463A;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+h2{
+    line-height: 150%; 
+    padding-bottom: 100px;  
+}
+.num-bolt{
+    font-family: 'Tenor Sans', sans-serif;
+    color: #57463A;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+    padding-top: 157.5px; 
+}
+.navigate{
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px #000;
+    padding: 28px 141px 19px;
+    justify-content: space-between;
+}
+.navigate-item{
+    display: flex;
+}
+.navigate-item_link1{
+    margin-right: 98px;
+}
+.navigate-item_link2{
+    margin-left: 155px;
+}
+
+
+.top-inner{
+    display: flex;
+}
+
+.top-info{
+    width: 100%;
+    border-bottom: solid 1px #000;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    padding-left: 40px;
+}
+.top-info_subtable{
+    color: #323232;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 24px */
+    padding-bottom: 17px;
+}
+.top-info_descr{
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.top-info-bt_button{
+    text-align: right;
+    font-size: 16px;
+    color: #F6F6F6;
+    background:#A1B29F;
+    padding: 18px 59px;
+    width: 245px;
+    height: 60px;
+    flex-shrink: 0;
+}
+.top-info-bt{
+    padding-bottom: 94px;
+}
+.top-img{
+    height: 774px;
+    flex-shrink: 0;
+    width: 719px;
+}
+button{
+    border: none;
+}
+.top-info_link{
+    display: flex;
+    gap: 40px;
+   justify-content: flex-end;
+   padding-right: 140px;;
+}
+
+
+.overview_info{
+    padding: 160px 134px 160px 135px;
+}
+.overview-info_text{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 6px;
+}
+.overview-info_text p{
+    text-align: center;
+    width: 268px; 
+}
+.overview-info_text .line{
+    width: 360px;
+    border-bottom: solid 3px #715B4B;
+}
+
+.overview_table{
+    padding: 0 140px 160px;
+}
+table, tr, td{
+    border: solid 1px #000;
+}
+td{
+    padding: 56px 91px 51px 87px;
+    text-align: center;
+}
+td p{
+    padding-top: 15px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 102.99%; /* 18.538px */
+    color: #323232;
+}
+
+
+.overview-family h2{
+    padding-left: 140px;
+}
+.overview-family_items{
+    display: flex;
+}
+.items_descr{
+    padding: 68px 220px 48px 40px;
+    background: #EBEEEB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+h3{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    font-family: 'Tenor Sans', sans-serif;
+}
+.overview-family_button{
+    padding: 18px 56px;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    color: #F6F6F6;
+    background: #A1B29F;
+    width: 245px;
+}
+
+.overview-video{
+    padding: 160px 140px 200px;
+}
+
+.price .title{
+    padding-left: 140px;
+    
+}
+.price h3{
+    padding-bottom: 40px;
+}
+.price p{
+    color: #000;
+}
+.price-items_box{
+    display: flex;
+    
+}
+.price-item_img{
+    width: 720px;
+    height: 536.33px;
+    flex-shrink: 0;
+}
+.price-item_descr{
+    background: #E3DACE;
+    padding: 110px 140px 100px 41px;
+}
+.price-item_desc{
+    background: #D4CDC3;
+    padding: 110px 145px 76px 41px;
+}
+.price-item_desc p{
+    padding-bottom: 25px;
+}
+.price-item_descr p{
+    padding-bottom: 55px;
+}
+.price-item_descr .price-item_button{
+    padding: 18px 57px;
+    background: #A1B29F;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    color: #F6F6F6;
+}
+.price-item_desc .price-item_button{
+    padding: 18px 45px;
+    background: #A1B29F;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    color: #F6F6F6;
+}
+
+.price-garant{
+    padding: 200px 140px 210px;    
+}
+.price-garant h2{
+    padding-bottom: 40px;
+    text-align: center;
+}
+.price-garant_border{
+    border: 7px solid #A1B29F;
+}
+.price-garant_border .inner{
+    margin: 14px 12px 13px 13px;
+    border: 1px solid #715B4B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.price-garant_inner{
+    padding: 106px 62px 38px 95px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 36px */
+    color: #000;
+}
+.price-garant_inner p{
+    font-size: 24px;
+    max-width: 922px;
+}
+.price-garant_logo{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.footer-inner{
+    background-color: #715B4B;
+    padding: 84px 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-inner_items{
+    display: flex;
+    flex-direction: column;
+}
+.footer-inner_link{
+    max-width: 130px;
+    display: flex;
+    gap:18px;
+    flex-wrap: wrap;
+}
+.footer-inner p{
+    color: #fff;
+}
+.footer-inner a{
+    color: #fff;
+}
+li{
+    list-style: none;
+}
