@@ -85,7 +85,7 @@ h2{
     color: #F6F6F6;
 }
 .title-back{
-    background-image: url(../img/master-img/background.png);
+    background-image: url(../image/master/background_1.png);
     background-position: center;
     position: relative;
     display: flex;
@@ -208,7 +208,7 @@ span{
 }
 
 .agitation_text{
-    background-image: url(../img/master-img/agitation.png);
+    background-image: url(../image/master/background_2.png);
     background-repeat: no-repeat;
     height:508px ;
     padding: 0 245px;

@@ -67,10 +67,10 @@ h2{
 .navigate-item{
     display: flex;
 }
-.navigate-item_link1{
+.nav_link1{
     margin-right: 98px;
 }
-.navigate-item_link2{
+.nav_link2{
     margin-left: 155px;
 }
 
