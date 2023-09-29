@@ -75,7 +75,7 @@ h2{
 }
 
 .top-title{
-    background-image: url(html\image\custom\background.jpg);
+    background-image: url("../image/custom/background.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
