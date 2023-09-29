@@ -75,7 +75,7 @@ h2{
 }
 
 .top-title{
-    background-image: url(image\images_custom\background.jpg);
+    background-image: url(../img/custom_furniture-img/background.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -186,22 +186,22 @@ b{
 
 
 
-.feedback h2{
+.review h2{
     padding-left: 140px;
 }
-.feedback-images{
+.review-images{
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 117px;
 
 }
-.feedback-application{
+.review-application{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 180px;
 }
-.feedback-application_button{
+.review-application_button{
     padding: 18px 51px;
     border: none;
     background: #A1B29F;
