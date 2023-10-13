@@ -46,10 +46,10 @@ h1{
 .navigate-item{
     display: flex;
 }
-.navigate_link1{
+.nav_link1{
     margin-right: 98px;
 }
-.navigate_link2{
+.nav_link2{
     margin-left: 155px;
 }
 .top-title{
@@ -116,19 +116,19 @@ h1{
     font-weight: 300;
     line-height: 150%;
 }
-.cmi-items{
+.mass_media-items{
     padding-left: 138px;
 }
-.cmi-items_img{
+.mass_media_img{
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
     padding:100px 210px 165px 0;
 }
-.cmi-items_text{
+.mass_media_text{
     padding-bottom: 20px;
 }
-.cmi_button{
+.mass_media_button{
     padding: 18px 51px;
     background-color:#A1B29F;
     color: #fff;

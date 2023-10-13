@@ -74,7 +74,7 @@ h2{
     margin-left: 155px;
 }
 
-.top-title{
+.first_info{
     background-image: url("../image/custom/background.jpg");
     background-repeat: no-repeat;
     background-position: center center;
@@ -89,23 +89,24 @@ h2{
     align-items: center;
     height: 639px;
 }
-.top-title h1{
+.first_info h1{
+    color:#F6F6F6;
+    line-height: 85px;
+}
+.first_info p{
     color:#F6F6F6;
 }
-.top-title p{
-    color:#F6F6F6;
-}
-.top-title_name{
+.first_info_name{
     padding-top: 25px;
     padding-bottom: 90px;
 }
-.top-title_button{
+.first_info_button{
     padding: 18px 92px;
     color:#715B4B;
     font-weight: 700;
     border: none;
 }
-.advantages h2{
+.advantages {
     padding-top: 160px;
     padding-left: 142px;
 }
@@ -135,7 +136,7 @@ b{
     color: #323232;
 }
 
-.portfolio h2{
+.portfolio{
     padding-left: 134px;
 }
 .port-slider{
@@ -144,7 +145,7 @@ b{
     flex-wrap: wrap;
     gap: 20px 16px;
 }
-.stages h2{
+.stages{
     padding-left: 134px;
 }
 .stages-box{
@@ -186,7 +187,7 @@ b{
 
 
 
-.review h2{
+.review{
     padding-left: 140px;
 }
 .review-images{
