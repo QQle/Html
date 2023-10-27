@@ -37,7 +37,19 @@
 				   <div class="first_info">
 					   <p>Воплотим вашу любую задумку в реальность</p>
 					   <h1>Столярная мастерская <br>NIKASON BRAND</h1>
-						   <button class="first_info_button">Заказать мебель</button>
+						   <button id="myBtn" class="first_info_button">Заказать мебель</button>
+						   <div id="myModal" class="modal">
+
+						  <div class="modal-content">
+						  <span class="close">&times;</span>
+						
+						  <p style="color: black;">Имя</p>
+						  <input type="text" name="name" id="name" >
+						  <p>Номер телефона</p>
+						  <input type="text" name="number" id="phone">
+						  <p><button id="conection" class="contact_button"> связаться</button></p>
+						  </div>
+					  
 				   </div>
 				
 			   
@@ -84,10 +96,12 @@
 		<section class="container">
 		
 				<h2 class="portfolio">Портфолио</h2>
-				<div class="port-slider">
-									
+				<div class="slider-button">
+					<div class="button-prev"> <img src="image/custom/prev-img.png" alt="prev"></div>
+					<div class="port-slider">
+					
 						<img src="image\custom\portfolio_1.png" alt="img">
-										
+								
 						<img src="image\custom\portfolio_2.png" alt="img">
 										
 						<img src="image\custom\portfolio_3.png" alt="img">
@@ -101,9 +115,13 @@
 						<img src="image\custom\portfolio_7.png" alt="img">
 					
 						<img src="image\custom\portfolio_8.png" alt="img">
-					
+						
 					
 				</div>
+				<div class="button-next"> <img src="image/custom/next-img.png" alt="next"></div>
+				</div>
+				
+				
 		
 		</section>
 
@@ -188,5 +206,6 @@
 	
 		
 	</footer>
+	<script src="scripts.js"></script>
 </body>
 </html>
